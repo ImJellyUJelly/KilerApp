@@ -24,7 +24,7 @@ namespace KilerApp
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        result.Add(Convert.ToString(reader["BandID"]));
+                        result.Add(Convert.ToString(reader["Naam"]));
                     }
                 }
             }

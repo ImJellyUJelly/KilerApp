@@ -11,8 +11,8 @@ namespace KilerApp
 {
     public class Database
     {
-        private const string connect = "Server=mssql.fhict.local;Database=dbi299244;User Id=dbi299244;Password=Schrader01";
-        //private const string connect = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\KilerApp\FunDatabaseKillerApp.mdf;Integrated Security = True";
+        //private const string connect = "Server=mssql.fhict.local;Database=dbi299244;User Id=dbi299244;Password=Schrader01";
+        private const string connect = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\KilerApp\FunDatabaseKillerApp.mdf;Integrated Security = True";
         public List<string> Search(string table, string B)
         {
             List<string> result = new List<string>();
